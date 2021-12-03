@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Okno dialogowe</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+     <script>
+       let liczba1;
+         function b1()
+         {
+             liczba1=parseInt(prompt("Podaj liczbę"));
+         }
+         function b2()
+         {
+             alert("Podana liczba: "+liczba1);
+         }
+     </script>
+  <header>
+<a href="index.html"><img src="baner.jpg" alt="baner"></a>
+  </header>
+  <nav>
+<a href="strona1.html">- proste działania</a>
+<a href="strona2.php">- potęgowanie</a>
+<a href="strona3.html">- okna dialogowe</a>
+  </nav>
+  <main>
+    <p>Okno dialogowe 1: <button onclick="b1();">Click</button></p>
+    <p>Okno dialogowe 2: <button onclick="b2();">Click</button></p>
+  </main>
+ </body>
+</html>
